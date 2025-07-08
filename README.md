@@ -125,9 +125,9 @@ VALUES (
 
 ![consultando bytea](prints/Capturar2.PNG)
 
--- Caso o usuário tente adicionar a mesma foto no mesmo local duas vezes o conteúdo não será inserido. 
+-- Caso o usuário tente adicionar a mesma imagem no mesmo local duas vezes o conteúdo não será inserido. 
 
-![Print da tela principal](prints/Capturar1.PNG)
+![falha ao inserir](prints/Capturar1.PNG)
 
 
 
