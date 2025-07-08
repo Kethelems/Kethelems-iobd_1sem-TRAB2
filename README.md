@@ -67,7 +67,7 @@ Funcionalidades implementadas:
 
 ### Criar o usuário e banco no `psql`:
 
-![Print da tela principal](prints/Capturar5.PNG)
+![Criando Usuário](prints/Capturar5.PNG)
 
 
 ## 2. Executar o script SQL:
@@ -121,7 +121,9 @@ VALUES (
   pg_read_binary_file('.../recourses/imagem_teste.jpg')
 );
 
-![Print da tela principal](prints/Capturar2.PNG)
+--Para fins de teste e simulação no banco de dados PostgreSQL, os registros da tabela conteudo utilizam a função decode(...) para inserir conteúdo binário no campo arquivo, que é do tipo BYTEA. Porém também é possível inserir arquivos reais — como PDFs, imagens, vídeos, áudio, quiz e slide.
+
+![consultando bytea](prints/Capturar2.PNG)
 
 -- Caso o usuário tente adicionar a mesma foto no mesmo local duas vezes o conteúdo não será inserido. 
 
