@@ -128,6 +128,10 @@ VALUES (
 
 ![Print da tela principal](prints/Capturar2.PNG)
 
+-- Caso o usuário tente adicionar a mesma foto no mesmo local duas vezes o conteúdo não será inserido. 
+
+![Print da tela principal](prints/Capturar1.PNG)
+
 
 
 ## 8.Funcionamento da Aplicação:
