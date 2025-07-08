@@ -140,6 +140,8 @@ O sistema implementa as seguintes funcionalidades básicas:
 --Inserir matrícula para um usuário com validação de pré-requisitos
 
 --Adicionar comentários e avaliações, armazenados no campo JSONB
+exemplo:
+![Print da tela principal](prints/Capturar6.PNG)
 
 --Inserir conteúdos com arquivos binários (imagens...) usando campo BYTEA
 
