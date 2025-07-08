@@ -158,19 +158,8 @@ Estrutura do banco após criação das tabelas:
 
 ## 10.Saída da aplicação rodando (console):
 
-(exemplo simplificado)
-Cursos disponíveis:
-- Curso 1: Introdução a Java
-- Curso 2: Banco de Dados PostgreSQL
 
-Inserindo matrícula para usuário...
-Matrícula inserida com sucesso.
-
-Adicionando comentário JSONB...
-Comentário adicionado.
-
-Inserindo conteúdo de imagem...
-Conteúdo inserido com sucesso.
+![Print da tela principal](prints/Capturar.PNG)
 
 ## 11.Consulta do conteúdo com imagem no banco
 (Exemplo de consulta para verificar conteúdo armazenado em BYTEA)
