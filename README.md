@@ -67,11 +67,8 @@ Funcionalidades implementadas:
 
 ### Criar o usuário e banco no `psql`:
 
-sql
-CREATE USER edulivre_user WITH PASSWORD 'senha123';
-CREATE DATABASE edulivre_db OWNER edulivre_user;
+![Print da tela principal](prints/Capturar5.PNG)
 
----
 
 ## 2. Executar o script SQL:
 
@@ -93,8 +90,6 @@ psql -U edulivre_user -d edulivre_db -f edulivre_script.sql
 ├─ edulivre_script.sql
 ├─ pom.xml
 ```
-
-
 
 
 ## 6. Compilação e Execução:
@@ -151,13 +146,8 @@ O sistema implementa as seguintes funcionalidades básicas:
 ## 9.Resultados Esperados:
 
 Estrutura do banco após criação das tabelas:
-| Schema | Name      | Type  | Owner          |
-| ------ | --------- | ----- | -------------- |
-| public | curso     | table | edulivre\_user |
-| public | conteudo  | table | edulivre\_user |
-| public | matricula | table | edulivre\_user |
-| public | usuario   | table | edulivre\_user |
 
+![Print da tela principal](prints/Capturar4.PNG)
 
 
 ## 10.Saída da aplicação rodando (console):
