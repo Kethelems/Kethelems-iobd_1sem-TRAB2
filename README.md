@@ -126,7 +126,7 @@ VALUES (
   pg_read_binary_file('.../recourses/imagem_teste.jpg')
 );
 
-![Print da tela principal](prints/captura2)
+![Print da tela principal](prints/Capturar2.PNG)
 
 
 
