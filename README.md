@@ -125,7 +125,7 @@ VALUES (
 
 ![consultando bytea](prints/Capturar2.PNG)
 
--- Caso o usuário tente adicionar o mesmo conteúdo no mesmo local o conteúdo não será inserido. 
+-- Caso o usuário tente adicionar o mesmo conteúdo no mesmo local o conteúdo não será inserido. (para evitar duplicacão.)
 
 ![falha ao inserir](prints/Capturar1.PNG)
 
@@ -143,7 +143,7 @@ O sistema implementa as seguintes funcionalidades básicas:
 
 --Adicionar comentários e avaliações, armazenados no campo JSONB
 exemplo:
-![Print da tela principal](prints/Capturar6.PNG)
+![jsonb](prints/Capturar6.PNG)
 
 --Inserir conteúdos com arquivos binários (imagens...) usando campo BYTEA
 
@@ -157,7 +157,7 @@ Estrutura do banco após criação das tabelas:
 ## 10.Saída da aplicação rodando (console):
 
 
-![Print da tela principal](prints/Capturar.PNG)
+![console](prints/Capturar.PNG)
 
 ## 11.Consulta do conteúdo com imagem no banco
 SELECT id, titulo, tipo FROM conteudo WHERE tipo = 'imagem';
