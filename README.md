@@ -156,7 +156,6 @@ Estrutura do banco após criação das tabelas:
 ![Print da tela principal](prints/Capturar.PNG)
 
 ## 11.Consulta do conteúdo com imagem no banco
-(Exemplo de consulta para verificar conteúdo armazenado em BYTEA)
 SELECT id, titulo, tipo FROM conteudo WHERE tipo = 'imagem';
 
 ![Print da tela principal](prints/Capturar3.PNG)
