@@ -169,11 +169,7 @@ Estrutura do banco após criação das tabelas:
 (Exemplo de consulta para verificar conteúdo armazenado em BYTEA)
 SELECT id, titulo, tipo FROM conteudo WHERE tipo = 'imagem';
 
-Retorno esperado:
-| id | titulo       | tipo   |
-| -- | ------------ | ------ |
-| 10 | Imagem Teste | imagem |
-
+![Print da tela principal](prints/Capturar3.PNG)
 
 ## 12. Considerações Técnicas
 JSONB foi utilizado para permitir avaliações com estrutura flexível (nota, comentário, data).
